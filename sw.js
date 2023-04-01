@@ -3,10 +3,10 @@
 const CACHE_NAME = 'v1_TEST',
 	urlsToCache = [
 		'./',
-		// './assets/css/styles.css',
-		// './assets/js/scripts.js',
+		'./assets/css/styles.css',
+		'./assets/js/scripts.js',
 		// './assets/img/icon_1024.png',
-		// './assets/img/favicon.png'
+		'./assets/img/favicon.ico'
 	]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos

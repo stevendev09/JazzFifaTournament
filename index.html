@@ -5,42 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    
+    <link rel="stylesheet" href="assets/css/styles.css">
     
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
     <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#5bbad5">
+
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-
-
-
-
-
-
-
     <title>Document</title>
         <link rel="manifest" href="manifest.json">
-    <script>
+    <!-- <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js');
         };
-    </script>
+    </script> -->
 </head>
-<body style="background: #272a33; height: 100vh; display: flex; flex-direction: column; justify-content: space-between;" >
-    <header style="background-color: #272a33; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem; position: sticky; top: 0;" >
+<body >
+    <header >
         <img src="https://jazzgs.com/assets/images/logo-normal.png" alt="">
     </header>
     <main>
-        <h1 style="text-align: center; color: #fff; font-family: sans-serif;">Jazz FIFA Tournament</h1>
-        <h2 style="text-align: center; color: #fff; font-family: sans-serif;">Coming soon...</h2>
+        <h1>Jazz FIFA Tournament</h1>
+        <h2>Coming soon...</h2>
+        <button class="btn" id="btnInstall">Install now</button>
+        <div id="instructions" style="display:none;">
+            <p>Tap the Share button at the bottom of the screen.</p>
+            <p>Scroll down and select "Add to Home Screen".</p>
+        </div>
     </main>
-    <footer style="height: 100px; background-color: black; color: #fff;">
+    <footer>
         <p style="text-align: center;">Footer</p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
