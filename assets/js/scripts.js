@@ -52,7 +52,7 @@ const APP = {
 
 
             if (window.matchMedia('(display-mode: standalone)').matches) {
-                btn.style.background = 'none';
+                btn.style.display = 'none';
             } else {
                 btn?.addEventListener('click', APP.startChromeInstall);
             }
